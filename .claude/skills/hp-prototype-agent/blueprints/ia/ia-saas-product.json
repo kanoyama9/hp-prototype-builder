@@ -1,0 +1,123 @@
+{
+  "id": "ia-saas-product",
+  "name": "SaaS/プロダクト型（理解→比較→導入）",
+  "description": "機能・ユースケース・価格・信頼を整理し導入まで導く。",
+  "recommendedFor": {
+    "offeringType": [
+      "product",
+      "mixed"
+    ],
+    "contentVolume": [
+      "mid",
+      "high"
+    ]
+  },
+  "pages": {
+    "home": {
+      "path": "/",
+      "sections": [
+        "hero",
+        "proof",
+        "featureBento",
+        "useCases",
+        "cta",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "product.name",
+        "product.oneLiner",
+        "product.features",
+        "content.contact.email"
+      ],
+      "requiredImageKeys": [
+        "assets.logo.primary"
+      ],
+      "optionalTextKeys": [
+        "product.useCases",
+        "pricing.tiers"
+      ],
+      "optionalImageKeys": [
+        "assets.hero.image",
+        "assets.product.screenshots"
+      ]
+    },
+    "product": {
+      "path": "/product",
+      "sections": [
+        "hero",
+        "featureBento",
+        "integrations",
+        "security",
+        "faq",
+        "cta",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "product.features"
+      ],
+      "requiredImageKeys": [],
+      "optionalTextKeys": [
+        "product.integrations",
+        "product.securityNotes",
+        "content.faq.items"
+      ],
+      "optionalImageKeys": [
+        "assets.product.screenshots"
+      ]
+    },
+    "pricing": {
+      "path": "/pricing",
+      "sections": [
+        "pricingTable",
+        "faq",
+        "cta",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "pricing.tiers"
+      ],
+      "requiredImageKeys": [],
+      "optionalTextKeys": [
+        "pricing.notes",
+        "content.faq.items"
+      ],
+      "optionalImageKeys": []
+    },
+    "company": {
+      "path": "/company",
+      "sections": [
+        "overview",
+        "profileTable",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "content.company.profile.legalName"
+      ],
+      "requiredImageKeys": [],
+      "optionalTextKeys": [
+        "content.company.history"
+      ],
+      "optionalImageKeys": []
+    },
+    "contact": {
+      "path": "/contact",
+      "sections": [
+        "contactInfo",
+        "contactForm",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "content.contact.email"
+      ],
+      "requiredImageKeys": [],
+      "optionalTextKeys": [
+        "content.contact.form.fields"
+      ],
+      "optionalImageKeys": []
+    }
+  },
+  "defaults": {
+    "navStyle": "mega",
+    "footerStyle": "columns"
+  }
+}

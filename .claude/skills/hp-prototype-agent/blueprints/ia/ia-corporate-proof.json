@@ -1,0 +1,141 @@
+{
+  "id": "ia-corporate-proof",
+  "name": "コーポレート拡張（事例/実績中心）",
+  "description": "比較検討されるB2B向け。Proof（事例/実績/FAQ）を厚くする。",
+  "recommendedFor": {
+    "goal": [
+      "inquiry",
+      "demo"
+    ],
+    "contentVolume": [
+      "mid",
+      "high"
+    ],
+    "trustRequirement": [
+      "high"
+    ],
+    "offeringType": [
+      "service",
+      "mixed"
+    ]
+  },
+  "pages": {
+    "home": {
+      "path": "/",
+      "sections": [
+        "hero",
+        "proof",
+        "serviceHighlights",
+        "caseStudyTeaser",
+        "cta",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "content.home.hero.headline",
+        "content.home.hero.subheadline",
+        "content.services.items"
+      ],
+      "requiredImageKeys": [
+        "assets.logo.primary"
+      ],
+      "optionalTextKeys": [
+        "caseStudies.items",
+        "content.home.proof.metrics"
+      ],
+      "optionalImageKeys": [
+        "assets.hero.image"
+      ]
+    },
+    "services": {
+      "path": "/services",
+      "sections": [
+        "serviceGrid",
+        "process",
+        "testimonials",
+        "faq",
+        "cta",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "content.services.items"
+      ],
+      "requiredImageKeys": [],
+      "optionalTextKeys": [
+        "process.steps",
+        "testimonials.items",
+        "content.faq.items"
+      ],
+      "optionalImageKeys": []
+    },
+    "caseStudies": {
+      "path": "/case-studies",
+      "sections": [
+        "caseStudyGrid",
+        "cta",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "caseStudies.items"
+      ],
+      "requiredImageKeys": [],
+      "optionalTextKeys": [],
+      "optionalImageKeys": [
+        "assets.caseStudies.images"
+      ]
+    },
+    "company": {
+      "path": "/company",
+      "sections": [
+        "overview",
+        "mvv",
+        "profileTable",
+        "ceoMessage",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "content.company.profile.legalName",
+        "content.company.profile.address"
+      ],
+      "requiredImageKeys": [],
+      "optionalTextKeys": [
+        "content.company.mission",
+        "content.company.values"
+      ],
+      "optionalImageKeys": [
+        "assets.ceo.photo"
+      ]
+    },
+    "contact": {
+      "path": "/contact",
+      "sections": [
+        "contactInfo",
+        "contactForm",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "content.contact.email"
+      ],
+      "requiredImageKeys": [],
+      "optionalTextKeys": [
+        "content.contact.form.fields"
+      ],
+      "optionalImageKeys": []
+    },
+    "privacy": {
+      "path": "/privacy",
+      "sections": [
+        "legalBody",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "legal.privacyPolicy.body"
+      ],
+      "requiredImageKeys": [],
+      "optionalTextKeys": [],
+      "optionalImageKeys": []
+    }
+  },
+  "defaults": {
+    "navStyle": "standard"
+  }
+}

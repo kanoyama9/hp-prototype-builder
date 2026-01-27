@@ -1,0 +1,72 @@
+{
+  "id": "ia-local-store",
+  "name": "店舗/ローカル（来店・予約中心）",
+  "description": "営業時間/地図/予約導線を最優先。スマホ最適化重視。",
+  "recommendedFor": {
+    "goal": [
+      "booking"
+    ],
+    "contentVolume": [
+      "low",
+      "mid"
+    ]
+  },
+  "pages": {
+    "home": {
+      "path": "/",
+      "sections": [
+        "hero",
+        "servicesOrMenu",
+        "hours",
+        "locationTeaser",
+        "cta",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "store.name",
+        "store.hours",
+        "store.primaryPhone"
+      ],
+      "requiredImageKeys": [
+        "assets.logo.primary"
+      ],
+      "optionalTextKeys": [
+        "store.bookingLink"
+      ],
+      "optionalImageKeys": [
+        "assets.hero.image"
+      ]
+    },
+    "locations": {
+      "path": "/locations",
+      "sections": [
+        "locationsList",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "store.locations"
+      ],
+      "requiredImageKeys": [],
+      "optionalTextKeys": [],
+      "optionalImageKeys": []
+    },
+    "contact": {
+      "path": "/contact",
+      "sections": [
+        "contactInfo",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "store.primaryPhone"
+      ],
+      "requiredImageKeys": [],
+      "optionalTextKeys": [
+        "content.contact.email"
+      ],
+      "optionalImageKeys": []
+    }
+  },
+  "defaults": {
+    "navStyle": "minimal"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "theme-editorial-lux",
+  "name": "エディトリアル/ラグジュアリー",
+  "keywords": [
+    "上質",
+    "物語",
+    "余白",
+    "写真"
+  ],
+  "defaults": {
+    "design": {
+      "stylePreset": "luxury",
+      "spacingDensity": "airy",
+      "cornerRadius": "soft",
+      "shadowStrength": "soft"
+    },
+    "motion": {
+      "intensity": "subtle"
+    },
+    "imagery": {
+      "mode": "photo",
+      "iconStyle": "outline",
+      "photoTreatment": "desaturated"
+    }
+  },
+  "tokens": {
+    "light": {
+      "background": "#fbfbf9",
+      "foreground": "#111827",
+      "card": "#ffffff",
+      "cardForeground": "#111827",
+      "popover": "#ffffff",
+      "popoverForeground": "#111827",
+      "primary": "#111827",
+      "primaryForeground": "#fbfbf9",
+      "secondary": "#f3f4f6",
+      "secondaryForeground": "#111827",
+      "muted": "#f3f4f6",
+      "mutedForeground": "#4b5563",
+      "accent": "#e5e7eb",
+      "accentForeground": "#111827",
+      "destructive": "#dc2626",
+      "destructiveForeground": "#ffffff",
+      "border": "#e5e7eb",
+      "input": "#e5e7eb",
+      "ring": "#111827"
+    },
+    "dark": {
+      "background": "#0b0c0f",
+      "foreground": "#f3f4f6",
+      "card": "#111827",
+      "cardForeground": "#f3f4f6",
+      "popover": "#111827",
+      "popoverForeground": "#f3f4f6",
+      "primary": "#f3f4f6",
+      "primaryForeground": "#0b0c0f",
+      "secondary": "#0f172a",
+      "secondaryForeground": "#f3f4f6",
+      "muted": "#0f172a",
+      "mutedForeground": "#9ca3af",
+      "accent": "#1f2937",
+      "accentForeground": "#f3f4f6",
+      "destructive": "#f87171",
+      "destructiveForeground": "#0b0c0f",
+      "border": "#1f2937",
+      "input": "#1f2937",
+      "ring": "#f3f4f6"
+    }
+  },
+  "radius": "0.75rem",
+  "fonts": {
+    "sans": "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial",
+    "heading": "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif"
+  },
+  "typography": {
+    "baseFontSize": "md",
+    "lineHeight": "relaxed",
+    "tracking": "normal"
+  }
+}

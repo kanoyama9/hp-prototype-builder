@@ -1,0 +1,58 @@
+{
+  "id": "ia-lp-onepager",
+  "name": "LP 1ページ完結（単一CV）",
+  "description": "単一オファーに集中し、縦長1ページで完結させる。",
+  "recommendedFor": {
+    "goal": [
+      "inquiry",
+      "download",
+      "demo"
+    ],
+    "contentVolume": [
+      "low",
+      "mid"
+    ],
+    "offeringType": [
+      "service",
+      "product",
+      "mixed"
+    ]
+  },
+  "pages": {
+    "home": {
+      "path": "/",
+      "sections": [
+        "hero",
+        "proof",
+        "benefits",
+        "features",
+        "process",
+        "testimonials",
+        "faq",
+        "cta",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "content.home.hero.headline",
+        "content.home.hero.subheadline",
+        "content.home.hero.ctaPrimary",
+        "content.services.items",
+        "content.contact.email"
+      ],
+      "requiredImageKeys": [
+        "assets.logo.primary"
+      ],
+      "optionalTextKeys": [
+        "content.faq.items",
+        "caseStudies.items"
+      ],
+      "optionalImageKeys": [
+        "assets.hero.image"
+      ]
+    }
+  },
+  "defaults": {
+    "navStyle": "minimal",
+    "footerStyle": "simple"
+  }
+}

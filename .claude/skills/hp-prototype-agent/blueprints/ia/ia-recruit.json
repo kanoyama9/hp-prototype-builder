@@ -1,0 +1,77 @@
+{
+  "id": "ia-recruit",
+  "name": "採用ファースト（応募導線）",
+  "description": "採用がKPI。EVP/福利厚生/求人/応募を中心に。",
+  "recommendedFor": {
+    "goal": [
+      "recruit"
+    ],
+    "contentVolume": [
+      "mid",
+      "high"
+    ]
+  },
+  "pages": {
+    "careers": {
+      "path": "/careers",
+      "sections": [
+        "hero",
+        "evp",
+        "benefits",
+        "culture",
+        "jobsTeaser",
+        "process",
+        "faq",
+        "applyCta",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "recruit.evp.headline",
+        "recruit.positions",
+        "recruit.applicationLink"
+      ],
+      "requiredImageKeys": [
+        "assets.logo.primary"
+      ],
+      "optionalTextKeys": [
+        "recruit.benefits",
+        "recruit.culture",
+        "content.faq.items"
+      ],
+      "optionalImageKeys": [
+        "assets.hero.image",
+        "assets.members.photos"
+      ]
+    },
+    "company": {
+      "path": "/company",
+      "sections": [
+        "overview",
+        "profileTable",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "content.company.profile.legalName"
+      ],
+      "requiredImageKeys": [],
+      "optionalTextKeys": [],
+      "optionalImageKeys": []
+    },
+    "privacy": {
+      "path": "/privacy",
+      "sections": [
+        "legalBody",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "legal.privacyPolicy.body"
+      ],
+      "requiredImageKeys": [],
+      "optionalTextKeys": [],
+      "optionalImageKeys": []
+    }
+  },
+  "defaults": {
+    "navStyle": "standard"
+  }
+}

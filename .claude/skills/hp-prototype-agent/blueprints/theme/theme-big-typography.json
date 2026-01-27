@@ -1,0 +1,79 @@
+{
+  "id": "theme-big-typography",
+  "name": "ビッグタイポ（コピー主役）",
+  "keywords": [
+    "メッセージ",
+    "タイポ",
+    "余白"
+  ],
+  "defaults": {
+    "design": {
+      "stylePreset": "minimal",
+      "spacingDensity": "airy",
+      "cornerRadius": "soft",
+      "shadowStrength": "soft"
+    },
+    "motion": {
+      "intensity": "subtle"
+    },
+    "imagery": {
+      "mode": "mixed",
+      "iconStyle": "outline",
+      "illustrationStyle": "none"
+    }
+  },
+  "tokens": {
+    "light": {
+      "background": "#ffffff",
+      "foreground": "#0b1220",
+      "card": "#ffffff",
+      "cardForeground": "#0b1220",
+      "popover": "#ffffff",
+      "popoverForeground": "#0b1220",
+      "primary": "#0ea5e9",
+      "primaryForeground": "#ffffff",
+      "secondary": "#f1f5f9",
+      "secondaryForeground": "#0b1220",
+      "muted": "#f8fafc",
+      "mutedForeground": "#475569",
+      "accent": "#e0f2fe",
+      "accentForeground": "#0c4a6e",
+      "destructive": "#dc2626",
+      "destructiveForeground": "#ffffff",
+      "border": "#e2e8f0",
+      "input": "#e2e8f0",
+      "ring": "#0ea5e9"
+    },
+    "dark": {
+      "background": "#05070d",
+      "foreground": "#e5e7eb",
+      "card": "#0b1220",
+      "cardForeground": "#e5e7eb",
+      "popover": "#0b1220",
+      "popoverForeground": "#e5e7eb",
+      "primary": "#38bdf8",
+      "primaryForeground": "#05070d",
+      "secondary": "#111827",
+      "secondaryForeground": "#e5e7eb",
+      "muted": "#111827",
+      "mutedForeground": "#9ca3af",
+      "accent": "#0c4a6e",
+      "accentForeground": "#e5e7eb",
+      "destructive": "#f87171",
+      "destructiveForeground": "#05070d",
+      "border": "#1f2937",
+      "input": "#1f2937",
+      "ring": "#38bdf8"
+    }
+  },
+  "radius": "0.75rem",
+  "fonts": {
+    "sans": "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial",
+    "heading": "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+  },
+  "typography": {
+    "baseFontSize": "lg",
+    "lineHeight": "relaxed",
+    "tracking": "tight"
+  }
+}

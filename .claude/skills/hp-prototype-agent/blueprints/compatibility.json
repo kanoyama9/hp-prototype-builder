@@ -1,0 +1,93 @@
+{
+  "legend": {
+    "recommended": "✅推奨",
+    "caution": "⚠️注意（条件次第）",
+    "avoid": "❌非推奨（原則除外）"
+  },
+  "matrix": {
+    "ia-lp-onepager": {
+      "theme-minimal-corporate": "recommended",
+      "theme-modern-saas": "recommended",
+      "theme-big-typography": "recommended",
+      "theme-glass": "caution",
+      "theme-brutal": "caution",
+      "theme-editorial-lux": "caution",
+      "theme-pop-illustration": "recommended",
+      "theme-dark-pro": "recommended"
+    },
+    "ia-corporate-basic": {
+      "theme-minimal-corporate": "recommended",
+      "theme-modern-saas": "caution",
+      "theme-big-typography": "recommended",
+      "theme-glass": "caution",
+      "theme-brutal": "avoid",
+      "theme-editorial-lux": "recommended",
+      "theme-pop-illustration": "caution",
+      "theme-dark-pro": "caution"
+    },
+    "ia-corporate-proof": {
+      "theme-minimal-corporate": "recommended",
+      "theme-modern-saas": "caution",
+      "theme-big-typography": "recommended",
+      "theme-glass": "caution",
+      "theme-brutal": "avoid",
+      "theme-editorial-lux": "recommended",
+      "theme-pop-illustration": "caution",
+      "theme-dark-pro": "caution"
+    },
+    "ia-saas-product": {
+      "theme-minimal-corporate": "recommended",
+      "theme-modern-saas": "recommended",
+      "theme-big-typography": "recommended",
+      "theme-glass": "recommended",
+      "theme-brutal": "caution",
+      "theme-editorial-lux": "caution",
+      "theme-pop-illustration": "caution",
+      "theme-dark-pro": "recommended"
+    },
+    "ia-pro-service": {
+      "theme-minimal-corporate": "recommended",
+      "theme-modern-saas": "caution",
+      "theme-big-typography": "recommended",
+      "theme-glass": "caution",
+      "theme-brutal": "caution",
+      "theme-editorial-lux": "recommended",
+      "theme-pop-illustration": "caution",
+      "theme-dark-pro": "caution"
+    },
+    "ia-recruit": {
+      "theme-minimal-corporate": "recommended",
+      "theme-modern-saas": "caution",
+      "theme-big-typography": "caution",
+      "theme-glass": "caution",
+      "theme-brutal": "caution",
+      "theme-editorial-lux": "recommended",
+      "theme-pop-illustration": "recommended",
+      "theme-dark-pro": "caution"
+    },
+    "ia-ir": {
+      "theme-minimal-corporate": "recommended",
+      "theme-modern-saas": "caution",
+      "theme-big-typography": "caution",
+      "theme-glass": "caution",
+      "theme-brutal": "avoid",
+      "theme-editorial-lux": "recommended",
+      "theme-pop-illustration": "avoid",
+      "theme-dark-pro": "caution"
+    },
+    "ia-local-store": {
+      "theme-minimal-corporate": "recommended",
+      "theme-modern-saas": "caution",
+      "theme-big-typography": "caution",
+      "theme-glass": "caution",
+      "theme-brutal": "avoid",
+      "theme-editorial-lux": "caution",
+      "theme-pop-illustration": "recommended",
+      "theme-dark-pro": "caution"
+    }
+  },
+  "notes": [
+    "avoid の組み合わせは推薦候補から除外する。",
+    "caution の場合はユーザーに注意点（素材品質/業界慣習/可読性）を添えて提示する。"
+  ]
+}

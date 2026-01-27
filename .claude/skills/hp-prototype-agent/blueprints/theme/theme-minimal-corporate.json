@@ -1,0 +1,80 @@
+{
+  "id": "theme-minimal-corporate",
+  "name": "ミニマル・コーポレート",
+  "keywords": [
+    "洗練",
+    "信頼",
+    "余白",
+    "シンプル"
+  ],
+  "defaults": {
+    "design": {
+      "stylePreset": "minimal",
+      "spacingDensity": "airy",
+      "cornerRadius": "soft",
+      "shadowStrength": "soft"
+    },
+    "motion": {
+      "intensity": "subtle"
+    },
+    "imagery": {
+      "mode": "photo",
+      "iconStyle": "outline",
+      "photoTreatment": "natural"
+    }
+  },
+  "tokens": {
+    "light": {
+      "background": "#ffffff",
+      "foreground": "#0f172a",
+      "card": "#ffffff",
+      "cardForeground": "#0f172a",
+      "popover": "#ffffff",
+      "popoverForeground": "#0f172a",
+      "primary": "#1e40af",
+      "primaryForeground": "#ffffff",
+      "secondary": "#f1f5f9",
+      "secondaryForeground": "#0f172a",
+      "muted": "#f8fafc",
+      "mutedForeground": "#475569",
+      "accent": "#e0e7ff",
+      "accentForeground": "#1e40af",
+      "destructive": "#dc2626",
+      "destructiveForeground": "#ffffff",
+      "border": "#e2e8f0",
+      "input": "#e2e8f0",
+      "ring": "#1e40af"
+    },
+    "dark": {
+      "background": "#0b1220",
+      "foreground": "#e2e8f0",
+      "card": "#0f172a",
+      "cardForeground": "#e2e8f0",
+      "popover": "#0f172a",
+      "popoverForeground": "#e2e8f0",
+      "primary": "#60a5fa",
+      "primaryForeground": "#0b1220",
+      "secondary": "#111c33",
+      "secondaryForeground": "#e2e8f0",
+      "muted": "#111c33",
+      "mutedForeground": "#94a3b8",
+      "accent": "#1d4ed8",
+      "accentForeground": "#e2e8f0",
+      "destructive": "#f87171",
+      "destructiveForeground": "#0b1220",
+      "border": "#1f2a44",
+      "input": "#1f2a44",
+      "ring": "#60a5fa"
+    }
+  },
+  "radius": "0.75rem",
+  "fonts": {
+    "sans": "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial",
+    "heading": "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+  },
+  "typography": {
+    "baseFontSize": "md",
+    "lineHeight": "relaxed",
+    "tracking": "normal"
+  }
+}

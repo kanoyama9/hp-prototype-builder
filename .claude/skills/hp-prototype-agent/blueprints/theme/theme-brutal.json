@@ -1,0 +1,80 @@
+{
+  "id": "theme-brutal",
+  "name": "ネオブルータリズム（尖り）",
+  "keywords": [
+    "尖り",
+    "強コントラスト",
+    "太枠",
+    "実験"
+  ],
+  "defaults": {
+    "design": {
+      "stylePreset": "brutal",
+      "spacingDensity": "standard",
+      "cornerRadius": "sharp",
+      "shadowStrength": "none"
+    },
+    "motion": {
+      "intensity": "none"
+    },
+    "imagery": {
+      "mode": "illustration",
+      "iconStyle": "solid",
+      "illustrationStyle": "flat"
+    }
+  },
+  "tokens": {
+    "light": {
+      "background": "#ffffff",
+      "foreground": "#000000",
+      "card": "#ffffff",
+      "cardForeground": "#000000",
+      "popover": "#ffffff",
+      "popoverForeground": "#000000",
+      "primary": "#000000",
+      "primaryForeground": "#ffffff",
+      "secondary": "#ffffff",
+      "secondaryForeground": "#000000",
+      "muted": "#ffffff",
+      "mutedForeground": "#111827",
+      "accent": "#fde047",
+      "accentForeground": "#000000",
+      "destructive": "#ef4444",
+      "destructiveForeground": "#000000",
+      "border": "#000000",
+      "input": "#000000",
+      "ring": "#000000"
+    },
+    "dark": {
+      "background": "#000000",
+      "foreground": "#ffffff",
+      "card": "#000000",
+      "cardForeground": "#ffffff",
+      "popover": "#000000",
+      "popoverForeground": "#ffffff",
+      "primary": "#ffffff",
+      "primaryForeground": "#000000",
+      "secondary": "#000000",
+      "secondaryForeground": "#ffffff",
+      "muted": "#000000",
+      "mutedForeground": "#e5e7eb",
+      "accent": "#fde047",
+      "accentForeground": "#000000",
+      "destructive": "#ef4444",
+      "destructiveForeground": "#000000",
+      "border": "#ffffff",
+      "input": "#ffffff",
+      "ring": "#ffffff"
+    }
+  },
+  "radius": "0px",
+  "fonts": {
+    "sans": "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial",
+    "heading": "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+  },
+  "typography": {
+    "baseFontSize": "md",
+    "lineHeight": "normal",
+    "tracking": "normal"
+  }
+}

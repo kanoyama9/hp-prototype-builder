@@ -1,0 +1,129 @@
+{
+  "id": "ia-corporate-basic",
+  "name": "コーポレート標準（4〜5ページ）",
+  "description": "会社/サービス/問い合わせを揃える基本形。迷わせない。",
+  "recommendedFor": {
+    "goal": [
+      "branding",
+      "inquiry",
+      "other"
+    ],
+    "contentVolume": [
+      "low",
+      "mid"
+    ],
+    "offeringType": [
+      "service",
+      "mixed"
+    ]
+  },
+  "pages": {
+    "home": {
+      "path": "/",
+      "sections": [
+        "hero",
+        "serviceHighlights",
+        "features",
+        "companyTeaser",
+        "cta",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "content.home.hero.headline",
+        "content.home.hero.subheadline",
+        "content.services.items"
+      ],
+      "requiredImageKeys": [
+        "assets.logo.primary"
+      ],
+      "optionalTextKeys": [
+        "content.home.features.items",
+        "content.home.proof.metrics"
+      ],
+      "optionalImageKeys": [
+        "assets.hero.image"
+      ]
+    },
+    "services": {
+      "path": "/services",
+      "sections": [
+        "serviceGrid",
+        "process",
+        "faq",
+        "cta",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "content.services.items"
+      ],
+      "requiredImageKeys": [],
+      "optionalTextKeys": [
+        "content.services.process.steps",
+        "content.faq.items"
+      ],
+      "optionalImageKeys": []
+    },
+    "company": {
+      "path": "/company",
+      "sections": [
+        "overview",
+        "mvv",
+        "profileTable",
+        "ceoMessage",
+        "historyTimeline",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "content.company.profile.legalName",
+        "content.company.profile.address",
+        "content.company.profile.business"
+      ],
+      "requiredImageKeys": [],
+      "optionalTextKeys": [
+        "content.company.mission",
+        "content.company.vision",
+        "content.company.values",
+        "content.company.history"
+      ],
+      "optionalImageKeys": [
+        "assets.ceo.photo",
+        "assets.company.officePhotos"
+      ]
+    },
+    "contact": {
+      "path": "/contact",
+      "sections": [
+        "contactInfo",
+        "contactForm",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "content.contact.email"
+      ],
+      "requiredImageKeys": [],
+      "optionalTextKeys": [
+        "content.contact.form.fields",
+        "content.contact.phone",
+        "content.contact.businessHours"
+      ],
+      "optionalImageKeys": []
+    },
+    "privacy": {
+      "path": "/privacy",
+      "sections": [
+        "legalBody",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "legal.privacyPolicy.body"
+      ],
+      "requiredImageKeys": [],
+      "optionalTextKeys": [],
+      "optionalImageKeys": []
+    }
+  },
+  "defaults": {
+    "navStyle": "standard",
+    "footerStyle": "columns"
+  }
+}

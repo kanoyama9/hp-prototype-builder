@@ -1,0 +1,47 @@
+{
+  "id": "ia-ir",
+  "name": "IR（投資家向け）",
+  "description": "投資家向け情報を整理する。厳格で迷わせない。",
+  "recommendedFor": {
+    "goal": [
+      "ir"
+    ]
+  },
+  "pages": {
+    "ir": {
+      "path": "/ir",
+      "sections": [
+        "irHero",
+        "irHighlights",
+        "documents",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "ir.documents"
+      ],
+      "requiredImageKeys": [
+        "assets.logo.primary"
+      ],
+      "optionalTextKeys": [
+        "ir.highlights"
+      ],
+      "optionalImageKeys": []
+    },
+    "governance": {
+      "path": "/ir/governance",
+      "sections": [
+        "governanceBody",
+        "footer"
+      ],
+      "requiredTextKeys": [
+        "ir.governance"
+      ],
+      "requiredImageKeys": [],
+      "optionalTextKeys": [],
+      "optionalImageKeys": []
+    }
+  },
+  "defaults": {
+    "navStyle": "standard"
+  }
+}
